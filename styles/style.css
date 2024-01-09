@@ -113,3 +113,50 @@ body {
   text-transform: uppercase;
   border: none;
 }
+
+/* venue section styles */
+.btn-primary {
+  background-color: #f00;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.venue {
+  background-color: rgba(255, 0, 0, 0.1);
+  text-align: center;
+  margin: 120px;
+  padding: 100px 380px 200px;
+}
+.venue span {
+  color: crimson;
+}
+
+/* new best offer section styles */
+.new-best-offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 120px;
+}
+
+.eclipse {
+  background-image: url("../resources/Rectangle 2.png");
+  padding: 3px 5px;
+  border-radius: 50%;
+}
+.eclipse .white-box img {
+  margin-top: 5px;
+  width: 360px;
+}
+
+.eclipse .white-box {
+  height: 365px;
+  width: 365px;
+  padding: 10px 5px;
+  background-color: #fff;
+  border-radius: 50%;
+}

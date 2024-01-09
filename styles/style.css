@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* header section styles */
+
+.banner {
+  background-image: url("../resources/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  margin: 50px 140px;
+  border-radius: 16px;
+}
+
+.banner h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.banner h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-top: 0;
+}
+
+.banner-headings {
+  width: 632px;
+  margin: 20px auto;
+  padding-top: 80px;
+}

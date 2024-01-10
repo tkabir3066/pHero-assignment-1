@@ -200,7 +200,7 @@ body {
 
 .portfolio-section .portfolios img {
   width: 450px;
-  height: 400px;
+  height: 300px;
   border-radius: 16px;
 }
 
@@ -258,6 +258,11 @@ footer .contact-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+footer .contact-section .call-img,
+.web-img {
+  padding-top: 10px;
+  padding-right: 5px;
 }
 
 footer .social-links {
